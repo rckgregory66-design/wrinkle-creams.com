@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://wrinkle-creams.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Core guide pages -->
+  <url>
+    <loc>https://wrinkle-creams.com/start-here</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://wrinkle-creams.com/wrinkle-cream-ingredients</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://wrinkle-creams.com/best-wrinkle-creams</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://wrinkle-creams.com/compare</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Ingredient guides -->
+  <url>
+    <loc>https://wrinkle-creams.com/retinol-wrinkle-creams</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Concern guides -->
+  <url>
+    <loc>https://wrinkle-creams.com/fine-lines</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wrinkle-creams.com/eye-wrinkle-creams</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wrinkle-creams.com/neck-wrinkle-creams</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://wrinkle-creams.com/forehead-wrinkles</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- Age guides -->
+  <url>
+    <loc>https://wrinkle-creams.com/wrinkle-creams-over-40</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://wrinkle-creams.com/wrinkle-creams-over-50</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://wrinkle-creams.com/wrinkle-creams-over-60</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Skin type guides -->
+  <url>
+    <loc>https://wrinkle-creams.com/sensitive-skin-wrinkle-creams</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wrinkle-creams.com/dry-skin-wrinkle-creams</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wrinkle-creams.com/oily-combination-skin-wrinkle-creams</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- Routine guides -->
+  <url>
+    <loc>https://wrinkle-creams.com/morning-skincare-routine</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wrinkle-creams.com/night-skincare-routine</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wrinkle-creams.com/wrinkle-prevention-tips</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Editorial pages -->
+  <url>
+    <loc>https://wrinkle-creams.com/wrinkle-cream-myths</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- About / legal pages -->
+  <url>
+    <loc>https://wrinkle-creams.com/about</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wrinkle-creams.com/editorial-policy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://wrinkle-creams.com/affiliate-disclosure</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://wrinkle-creams.com/contact</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Internal template — excluded from priority crawl -->
+  <!-- review-template.html has meta robots noindex so search engines won't index it -->
+
+</urlset>

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Internal template page — no value for search engines
+Disallow: /review-template.html
+
+# Sitemap location
+Sitemap: https://wrinkle-creams.com/sitemap.xml

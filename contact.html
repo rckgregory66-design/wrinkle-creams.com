@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — wrinkle-creams.com</title>
+  <meta name="description" content="Contact wrinkle-creams.com. Questions, corrections, feedback, or editorial enquiries — use the form below or email us directly.">
+  <link rel="canonical" href="https://wrinkle-creams.com/contact">
+  <meta property="og:title" content="Contact — wrinkle-creams.com">
+  <meta property="og:url" content="https://wrinkle-creams.com/contact">
+  <meta property="og:locale" content="en">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div id="site-nav"></div>
+<main id="main-content">
+
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <div class="container">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><span aria-current="page">Contact</span></li>
+      </ol>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <div style="max-width:700px">
+        <span class="section-label">Get in touch</span>
+        <h1>Contact us</h1>
+        <p class="lead">Questions, corrections, feedback, or editorial enquiries? We would like to hear from you. Use the form below or email us directly.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section section--white">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:1fr;gap:3rem;max-width:860px">
+
+        <div>
+          <h2 style="margin-bottom:1.5rem">Send us a message</h2>
+
+          <!-- PLACEHOLDER: Connect this form to your email or form handler (Formspree, Netlify Forms, EmailJS, etc.) -->
+          <form class="contact-form" action="#" method="POST" aria-label="Contact form" onsubmit="handleContactSubmit(event)">
+            <div class="form-group">
+              <label for="contact-name">Your name <span aria-hidden="true">*</span></label>
+              <input type="text" id="contact-name" name="name" required autocomplete="name" placeholder="Jane Smith">
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Your email address <span aria-hidden="true">*</span></label>
+              <input type="email" id="contact-email" name="email" required autocomplete="email" placeholder="jane@example.com">
+              <p class="form-note">We will only use your email to reply to your message. We do not add you to any mailing list without your consent.</p>
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <select id="contact-subject" name="subject">
+                <option value="">Select a subject</option>
+                <option value="general">General question</option>
+                <option value="correction">Factual correction or feedback</option>
+                <option value="editorial">Editorial enquiry</option>
+                <option value="partnership">Partnership or commercial enquiry</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message <span aria-hidden="true">*</span></label>
+              <textarea id="contact-message" name="message" required placeholder="Your message here…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send message →</button>
+            <p class="form-note" style="margin-top:1rem"><!-- PLACEHOLDER: Replace with real GDPR/privacy statement when form is live --> By submitting this form you agree to us using your details to respond to your message. We do not share your information with third parties. See our privacy notice <!-- ADD: link to privacy policy when created -->.</p>
+          </form>
+
+          <div id="contact-success" style="display:none" role="alert">
+            <div class="info-box info-box--tip" style="margin-top:1.5rem">
+              <p class="info-box-title">Message sent</p>
+              <p>Thank you — we have received your message and will aim to respond within 3–5 working days.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h2 style="margin-bottom:1rem">Other ways to reach us</h2>
+
+          <div class="feature-card" style="margin-bottom:1rem">
+            <h4>Email</h4>
+            <!-- PLACEHOLDER: Replace with real contact email address -->
+            <p style="font-size:0.875rem;color:var(--text-mid)"><!-- ADD: hello@wrinkle-creams.com or your preferred contact email --><em>[Email address to be added — contact owner]</em></p>
+          </div>
+
+          <div class="feature-card" style="margin-bottom:1rem">
+            <h4>Corrections and fact-checking</h4>
+            <p style="font-size:0.875rem;color:var(--text-mid)">If you have spotted a factual error in any of our content, please use the contact form and select "Factual correction or feedback" as the subject. We take corrections seriously and aim to address them promptly. See our <a href="/editorial-policy.html">editorial policy</a> for our full corrections process.</p>
+          </div>
+
+          <div class="feature-card" style="margin-bottom:1rem">
+            <h4>Commercial and partnership enquiries</h4>
+            <p style="font-size:0.875rem;color:var(--text-mid)">If you are a brand or PR agency wanting to discuss a potential editorial relationship, please read our <a href="/editorial-policy.html">editorial policy</a> and <a href="/affiliate-disclosure.html">affiliate disclosure</a> before getting in touch. We do not accept paid placements that are not disclosed, and editorial independence is not negotiable.</p>
+          </div>
+
+          <div class="feature-card">
+            <h4>Response times</h4>
+            <p style="font-size:0.875rem;color:var(--text-mid)">We aim to respond to all genuine enquiries within 3–5 working days. We cannot respond to spam, unsolicited link exchange requests, or AI-generated outreach.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<div id="site-footer"></div>
+
+<script>
+function handleContactSubmit(e) {
+  e.preventDefault();
+  // PLACEHOLDER: Replace this with a real form submission handler.
+  // Options: Formspree (https://formspree.io), Netlify Forms, EmailJS, or a custom backend endpoint.
+  // Example Formspree: change <form action="#"> to <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  document.getElementById('contact-success').style.display = 'block';
+  e.target.style.display = 'none';
+}
+</script>
+<script src="/js/components.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
