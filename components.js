@@ -115,6 +115,7 @@ const FOOTER_HTML = `
           <li><a href="/best-wrinkle-creams.html">Best Wrinkle Creams</a></li>
           <li><a href="/wrinkle-cream-ingredients.html">Ingredients Guide</a></li>
           <li><a href="/wrinkle-cream-myths.html">Myths Busted</a></li>
+          <li><a href="/wrinkle-creams-pregnancy.html">Pregnancy &amp; Wrinkle Creams</a></li>
           <li><a href="/wrinkle-prevention-tips.html">Prevention Tips</a></li>
         </ul>
       </div>
