@@ -145,7 +145,8 @@ em { font-style: italic; }
 .logo span { color: var(--rose); }
 .logo:hover { color: var(--text); }
 .main-nav { display: none; }
-.main-nav ul { list-style: none; padding: 0; margin: 0; display: flex; gap: 0.25rem; }
+.main-nav ul { list-style: none; padding: 0; margin: 0; }
+.main-nav > ul { display: flex; gap: 0.25rem; }
 .main-nav a {
   font-size: 0.875rem;
   font-weight: 500;
